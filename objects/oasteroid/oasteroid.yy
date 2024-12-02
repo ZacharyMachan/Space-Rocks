@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oasteroid",
-  "spriteId": null,
+  "spriteId": {
+    "name": "slarge_asteroid",
+    "path": "sprites/slarge_asteroid/slarge_asteroid.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
