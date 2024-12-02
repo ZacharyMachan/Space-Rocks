@@ -6,9 +6,9 @@
     {"id":{"name":"sship","path":"sprites/sship/sship.yy",},"order":0,},
     {"id":{"name":"oasteroid","path":"objects/oasteroid/oasteroid.yy",},"order":1,},
     {"id":{"name":"oship","path":"objects/oship/oship.yy",},"order":0,},
-    {"id":{"name":"ssmall_asteroid","path":"sprites/ssmall_asteroid/ssmall_asteroid.yy",},"order":1,},
-    {"id":{"name":"smedium_asteroid","path":"sprites/smedium_asteroid/smedium_asteroid.yy",},"order":2,},
-    {"id":{"name":"slarge_asteroid","path":"sprites/slarge_asteroid/slarge_asteroid.yy",},"order":3,},
+    {"id":{"name":"sasteroid_small","path":"sprites/sasteroid_small/sasteroid_small.yy",},"order":1,},
+    {"id":{"name":"sasteroid_medium","path":"sprites/sasteroid_medium/sasteroid_medium.yy",},"order":2,},
+    {"id":{"name":"sasteroid_large","path":"sprites/sasteroid_large/sasteroid_large.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -26,7 +26,7 @@
     {"name":"Xbox Series XS","path":"options/xboxseriesxs/options_xboxseriesxs.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",

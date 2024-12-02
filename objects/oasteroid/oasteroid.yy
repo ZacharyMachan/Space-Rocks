@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oasteroid",
   "spriteId": {
-    "name": "slarge_asteroid",
-    "path": "sprites/slarge_asteroid/slarge_asteroid.yy",
+    "name": "sasteroid_large",
+    "path": "sprites/sasteroid_large/sasteroid_large.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
