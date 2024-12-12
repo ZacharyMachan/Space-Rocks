@@ -2,8 +2,12 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"oasteroid","order":1,"path":"objects/oasteroid/oasteroid.yy",},
+    {"name":"obullet","order":2,"path":"objects/obullet/obullet.yy",},
+    {"name":"odebris","order":3,"path":"objects/odebris/odebris.yy",},
     {"name":"sasteroid_large","order":3,"path":"sprites/sasteroid_large/sasteroid_large.yy",},
     {"name":"sasteroid_medium","order":2,"path":"sprites/sasteroid_medium/sasteroid_medium.yy",},
     {"name":"sasteroid_small","order":1,"path":"sprites/sasteroid_small/sasteroid_small.yy",},
+    {"name":"sbullet","order":4,"path":"sprites/sbullet/sbullet.yy",},
+    {"name":"sdebris","order":5,"path":"sprites/sdebris/sdebris.yy",},
   ],
 }
