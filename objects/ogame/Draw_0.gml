@@ -16,14 +16,13 @@ switch(room){
 		);	
 		draw_text_transformed(
 			room_width/2,250, 
-@"Score 100,000 points to win!
+@"DESTROY ALL ASTEROIDS TO WIN!
 
 
 
 W: Move
 A/D: Turn
 K: Shoot
-Shift: Boost
 
 
 >> PRESS ENTER TO START <<"
@@ -40,7 +39,10 @@ Shift: Boost
 			6,6,0,c,c,c,c,1
 		);	
 		draw_text_transformed(
-			room_width/2,500, ">> PRESS ENTER TO RESTART <<",2.5,2.5,0
+			room_width/2,500, "FINAL SCORE: "+string(score) ,2.5,2.5,0
+		);
+		draw_text_transformed(
+			room_width/2,600, ">> PRESS ENTER TO RESTART <<",2.5,2.5,0
 		);
 		break;
 		

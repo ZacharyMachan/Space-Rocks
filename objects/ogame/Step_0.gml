@@ -22,3 +22,4 @@ if(room == rgame){
 		room_goto(	rlose);
 	}
 }
+
