@@ -1,5 +1,6 @@
 //
 
+
 if(keyboard_check_pressed(vk_enter)){
 	switch(room){
 		case rstart:
@@ -14,7 +15,7 @@ if(keyboard_check_pressed(vk_enter)){
 }
 
 if(room == rgame){
-	if(score >= 100000){
+	if instance_number(oasteroid) = 0{
 	room_goto(rwin);
 	}
 
@@ -22,4 +23,3 @@ if(room == rgame){
 		room_goto(	rlose);
 	}
 }
-
