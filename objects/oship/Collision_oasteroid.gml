@@ -2,6 +2,8 @@
 
 lives -= 1;
 
+audio_play_sound(snddeath, 1, false)
+
 instance_destroy();
 
 repeat(10){

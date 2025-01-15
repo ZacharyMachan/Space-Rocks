@@ -16,5 +16,5 @@ if(choose(0,1) == 0){
 
 (instance_create_layer(xx, yy, "Instances", oasteroid))
 
-alarm [0] = 4*room_speed;
+alarm [0] = 2*room_speed;
 

@@ -26,6 +26,7 @@ if (keyboard_check(ord("S"))){
 if (keyboard_check_pressed(ord("K"))){
     var inst = instance_create_layer(x,y, "Instances", obullet);
 	inst.direction = image_angle;
+	audio_play_sound(sndshoot, 1, false)
 }
 
 //speed cap

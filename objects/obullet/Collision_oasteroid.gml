@@ -1,8 +1,9 @@
 //
 
 
-
 instance_destroy();
+
+audio_play_sound(snddestroy, 1, false);
 
 with(other){
 	instance_destroy();

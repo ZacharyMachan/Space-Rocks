@@ -2,6 +2,7 @@
 
 
 if(keyboard_check_pressed(vk_enter)){
+	audio_play_sound(sndstart, 1, false)
 	switch(room){
 		case rstart:
 			room_goto(rgame);
@@ -15,7 +16,7 @@ if(keyboard_check_pressed(vk_enter)){
 }
 
 if(room == rgame){
-	if instance_number(oasteroid) = 0{
+	if (score >= 100000){
 	room_goto(rwin);
 	}
 
