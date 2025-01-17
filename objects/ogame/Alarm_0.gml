@@ -17,4 +17,5 @@ if(choose(0,1) == 0){
 (instance_create_layer(xx, yy, "Instances", oasteroid))
 
 alarm [0] = 2*room_speed;
+audio_play_sound(sndrespawn, 1, false)
 

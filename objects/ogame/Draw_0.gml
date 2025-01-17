@@ -20,8 +20,8 @@ switch(room){
 
 
 
-W: Move
-A/D: Turn
+W/S: Move Forward & Back
+A/D: Turn Left & Right
 K: Shoot
 
 
