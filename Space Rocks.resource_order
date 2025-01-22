@@ -7,6 +7,7 @@
     {"name":"ogame","order":4,"path":"objects/ogame/ogame.yy",},
     {"name":"rdifficulty","order":6,"path":"rooms/rdifficulty/rdifficulty.yy",},
     {"name":"rgame_easy","order":4,"path":"rooms/rgame_easy/rgame_easy.yy",},
+    {"name":"rgame_endless","order":7,"path":"rooms/rgame_endless/rgame_endless.yy",},
     {"name":"rgame_hard","order":5,"path":"rooms/rgame_hard/rgame_hard.yy",},
     {"name":"rgame_medium","order":1,"path":"rooms/rgame_medium/rgame_medium.yy",},
     {"name":"rlose","order":3,"path":"rooms/rlose/rlose.yy",},

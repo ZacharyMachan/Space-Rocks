@@ -41,6 +41,7 @@
     {"id":{"name":"oship","path":"objects/oship/oship.yy",},},
     {"id":{"name":"rdifficulty","path":"rooms/rdifficulty/rdifficulty.yy",},},
     {"id":{"name":"rgame_easy","path":"rooms/rgame_easy/rgame_easy.yy",},},
+    {"id":{"name":"rgame_endless","path":"rooms/rgame_endless/rgame_endless.yy",},},
     {"id":{"name":"rgame_hard","path":"rooms/rgame_hard/rgame_hard.yy",},},
     {"id":{"name":"rgame_medium","path":"rooms/rgame_medium/rgame_medium.yy",},},
     {"id":{"name":"rlose","path":"rooms/rlose/rlose.yy",},},
@@ -71,6 +72,7 @@
     {"roomId":{"name":"rgame_easy","path":"rooms/rgame_easy/rgame_easy.yy",},},
     {"roomId":{"name":"rgame_hard","path":"rooms/rgame_hard/rgame_hard.yy",},},
     {"roomId":{"name":"rdifficulty","path":"rooms/rdifficulty/rdifficulty.yy",},},
+    {"roomId":{"name":"rgame_endless","path":"rooms/rgame_endless/rgame_endless.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

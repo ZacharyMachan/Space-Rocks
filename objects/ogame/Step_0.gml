@@ -45,6 +45,15 @@ if keyboard_check(ord("3")){
 	}
 }
 
+if keyboard_check(ord("4")){
+	switch(room){
+		case rdifficulty:
+			room_goto(rgame_endless);
+			audio_play_sound(sndstart, 1, false);
+			break;
+	}
+}
+
 if(room == rgame_easy){
 	if (score >= 50000){
 	room_goto(rwin);
@@ -70,6 +79,12 @@ if(room == rgame_hard){
 	room_goto(rwin);
 	audio_play_sound(sndwin, 1, false);
 	}
+	if(lives <= 0){
+		room_goto(rlose);
+		audio_play_sound(sndlose, 1, false);
+	}
+}
+if(room == rgame_endless){
 	if(lives <= 0){
 		room_goto(rlose);
 		audio_play_sound(sndlose, 1, false);

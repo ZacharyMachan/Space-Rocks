@@ -14,6 +14,10 @@ switch(room){
 		draw_text(20,20, "SCORE: "+string(score));
 		draw_text(20,40, "LIVES: "+string(lives));
 		break;
+	case rgame_endless:
+		draw_text(20,20, "SCORE: "+string(score));
+		draw_text(20,40, "LIVES: "+string(lives));
+		break;
 	
 	case rstart:
 		draw_set_halign(fa_center);
