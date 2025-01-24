@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"oafter_image","order":5,"path":"objects/oafter_image/oafter_image.yy",},
     {"name":"oasteroid","order":1,"path":"objects/oasteroid/oasteroid.yy",},
     {"name":"obullet","order":2,"path":"objects/obullet/obullet.yy",},
     {"name":"odebris","order":3,"path":"objects/odebris/odebris.yy",},

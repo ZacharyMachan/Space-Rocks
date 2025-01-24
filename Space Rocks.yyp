@@ -34,6 +34,7 @@
   "name":"Space Rocks",
   "resources":[
     {"id":{"name":"ftxt","path":"fonts/ftxt/ftxt.yy",},},
+    {"id":{"name":"oafter_image","path":"objects/oafter_image/oafter_image.yy",},},
     {"id":{"name":"oasteroid","path":"objects/oasteroid/oasteroid.yy",},},
     {"id":{"name":"obullet","path":"objects/obullet/obullet.yy",},},
     {"id":{"name":"odebris","path":"objects/odebris/odebris.yy",},},

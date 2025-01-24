@@ -1,4 +1,5 @@
 //
+
 if(room == rgame_easy){
 	repeat (6){
 		var xx = choose( 
@@ -11,12 +12,8 @@ if(room == rgame_easy){
 		);
 		(instance_create_layer(xx, yy, "Instances", oasteroid))
 	}
-
 	alarm[0] = 60 
 }
-
-
-
 
 if(room == rgame_medium){
 	repeat (6){
@@ -30,12 +27,8 @@ if(room == rgame_medium){
 		);
 		(instance_create_layer(xx, yy, "Instances", oasteroid))
 	}
-
 	alarm[0] = 60 
 }
-
-
-
 
 if(room == rgame_hard){
 	repeat (6){
@@ -49,7 +42,6 @@ if(room == rgame_hard){
 		);
 		(instance_create_layer(xx, yy, "Instances", oasteroid))
 	}
-
 	alarm[0] = 60 
 }
 
@@ -65,6 +57,5 @@ if(room == rgame_endless){
 		);
 		(instance_create_layer(xx, yy, "Instances", oasteroid))
 	}
-
 	alarm[0] = 60 
 }
