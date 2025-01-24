@@ -25,7 +25,7 @@ with(other){
 		score += 1000
 	 }
 	 
-	repeat(10){
+	repeat(irandom_range(5, 30)){
 	instance_create_layer(x,y, "Instances", odebris);
 	}
 }
