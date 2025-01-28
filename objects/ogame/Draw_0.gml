@@ -61,7 +61,7 @@ K: Shoot
 4: Endless - (Destroy Asteroids Till You Die!)
 
 
->> PRESS ENTER TO START <<"
+>> CHOOSE DIFFICULTY TO START <<"
 		,2.5,2.5,0
 		);
 		draw_set_halign(fa_left);

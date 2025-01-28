@@ -29,6 +29,26 @@ if (keyboard_check_pressed(ord("K"))){
 	inst.direction = image_angle;
 	audio_play_sound(sndshoot, 1, false)
 }
+if (keyboard_check_pressed(ord("H"))){
+    var inst = instance_create_layer(x,y, "Instances", obullet);
+	inst.direction = image_angle;
+	audio_play_sound(sndshoot, 1, false)
+}
+if (keyboard_check_pressed(ord("J"))){
+    var inst = instance_create_layer(x,y, "Instances", obullet);
+	inst.direction = image_angle;
+	audio_play_sound(sndshoot, 1, false)
+}
+if (keyboard_check_pressed(ord("L"))){
+    var inst = instance_create_layer(x,y, "Instances", obullet);
+	inst.direction = image_angle;
+	audio_play_sound(sndshoot, 1, false)
+}
+if (keyboard_check_pressed(ord(";"))){
+    var inst = instance_create_layer(x,y, "Instances", obullet);
+	inst.direction = image_angle;
+	audio_play_sound(sndshoot, 1, false)
+}
 
 //speed cap
 speed = clamp(speed, 0, 5);

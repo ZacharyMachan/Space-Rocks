@@ -16,6 +16,14 @@ if(keyboard_check_pressed(vk_enter)){
 	}
 }
 
+if(keyboard_check_pressed(vk_escape)){
+	switch(room){
+		case rdifficulty:
+			audio_play_sound(sndmenu, 1, false);
+			room_goto(rstart)
+	}
+}
+
 //difficulties
 
 if keyboard_check(ord("1")){
@@ -75,7 +83,7 @@ if(room == rgame_medium){
 	}
 }
 if(room == rgame_hard){
-	if (score >= 500000){
+	if (score >= 250000){
 	room_goto(rwin);
 	audio_play_sound(sndwin, 1, false);
 	}
