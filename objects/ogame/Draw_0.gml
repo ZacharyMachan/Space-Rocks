@@ -109,7 +109,7 @@ K: Shoot
 			room_width/2,600, ">> PRESS ENTER TO RESTART <<",2.5,2.5,0
 		);
 		
-		if room_previous(rgame_easy){
+		if (score <= 99999){
 			draw_set_halign(fa_center);
 			var c = c_lime
 			draw_text_transformed_color(
@@ -117,7 +117,7 @@ K: Shoot
 			4,4,0,c,c,c,c,1
 			);	
 		}
-		if room_previous(rgame_medium){
+		if (score <= 249999 and score >= 52999){
 			draw_set_halign(fa_center);
 			var c = c_lime
 			draw_text_transformed_color(
@@ -125,7 +125,7 @@ K: Shoot
 			4,4,0,c,c,c,c,1
 			);	
 		}
-		if room_previous(rgame_hard){
+		if (score >= 250000){
 			draw_set_halign(fa_center);
 			var c = c_lime
 			draw_text_transformed_color(
