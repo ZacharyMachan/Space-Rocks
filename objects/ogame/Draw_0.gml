@@ -148,13 +148,5 @@ K: Shoot
 		draw_text_transformed(
 			room_width/2,600, ">> PRESS ENTER TO RESTART <<",2.5,2.5,0
 		);
-		if room_previous(rgame_endless){
-			draw_set_halign(fa_center);
-			var c = c_red
-			draw_text_transformed_color(
-			room_width/2,250, "ENDLESS",
-			4,4,0,c,c,c,c,1
-			);	
-		}
 		break;		
 }
